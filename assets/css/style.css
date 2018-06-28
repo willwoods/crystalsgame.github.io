@@ -1,0 +1,63 @@
+/* styling elements on page*/
+body{
+	background-image: url("../images/breakingbadart5.jpg")
+}
+div{
+	background: rgba(76, 175, 80, 0.3)
+	background-color: #F0E68C;
+	margin: 10px;
+	width: 25%
+
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* styling specific divs */
+div.header, div.gems{
+	background-color: #antiquewhite;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* styling classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* ids */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
